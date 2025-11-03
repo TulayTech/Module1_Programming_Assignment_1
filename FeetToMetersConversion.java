@@ -13,5 +13,13 @@ The formula for the conversion is:
 */
 
 public class FeetToMetersConversion {
-    
+    /* Convert from feet to meters */
+    public static double footToMeter(double foot) {
+        return 0.305 * foot;
+    }
+    /* Convert from meters to feet */
+    public static double meterToFoot(double meter) {
+        return meter / 0.305;
+    }
+    // Print results in the form of a table
 }
